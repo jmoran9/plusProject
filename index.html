@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>SheCodes Weather App</title>
+  </head>
+  <body>
+    <div class="weather-app">
+      <header>
+        <form action="" id="enter-city">
+          <input
+            type="search"
+            required
+            placeholder="Enter a city..."
+            class="search-input"
+            id="search-input"
+          />
+          <input type="submit" value="Search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="current-weather">
+          <div>
+            <h1 class="city" id="current-city">Boston</h1>
+            <p class="details">
+              <span class="current-day-time" id="current-day-time"
+                >Saturday 1:32</span
+              >, moderate rain
+              <br />
+              Humidity: <strong>19%</strong>, Wind:
+              <strong>43 mph</strong>
+            </p>
+          </div>
+          <div class="current-info">
+            <span class="current-temperature-icon">🍃</span>
+            <span class="current-temperature-temp">35</span>
+            <span class="current-temperature-unit">&deg;F</span>
+          </div>
+        </div>
+      </main>
+      <section>
+        <ul>
+          <li class="temperatures">
+            Sun 🌨️<br />
+            <strong>13&degF</strong> - 37&degF
+          </li>
+          <li class="temperatures">
+            Mon 🌨️<br />
+            <strong>10&degF</strong> - 33&degF
+          </li>
+          <li class="temperatures">
+            Tues❄️<br />
+            <strong>3&degF</strong> - 12&degF
+          </li>
+          <li class="temperatures">
+            Wed☀️<br />
+            <strong>33&degF</strong> - 43&degF
+          </li>
+          <li class="temperatures">
+            Thurs🌥️<br />
+            <strong>22&degF</strong> - 32&degF
+          </li>
+        </ul>
+      </section>
+      <footer>
+        This project was coded by
+        <a href="#" target="_blank">Jessica Moran</a>
+        through the
+        <a href="#" target="_blank">SheCodes Plus Course.</a>
+      </footer>
+      <script src="js/app.js"></script>
+    </div>
+  </body>
+</html>
